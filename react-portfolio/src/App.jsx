@@ -1,16 +1,16 @@
 import { useState } from 'react'
-import Layout from './compoents/Layout'
-import Hero from './compoents/Hero'
+import Layout from './components/Layout'
+import About from "./components/About"
+import Projects from "./components/Projects"
 
 function App() {
 
   return (
-    <>
+    <div className='font-darkerGrotesque'>
       <Layout>
-        <Navbar />
-        <Hero />
+        <Projects />
       </Layout>
-    </>
+    </div>
   )
 }
 
