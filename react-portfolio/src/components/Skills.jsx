@@ -1,39 +1,46 @@
 import { useState } from 'react'
-
+import htmlImg from '../assets/html.png'
+import tailwindImg from '../assets/tailwind-css.png'
+import javascriptImg from '../assets/javascript.png'
+import typescriptImg from '../assets/typescript.png'
+import svelteImg from '../assets/svelte.png'
+import reactImg from '../assets/react.png'
+import figmaImg from '../assets/figma.png'
+import bootstrapImg from '../assets/bootstrap.png'
 
 function Skills() {
     const skillsArr =[
         {
             name:'HTML',
-            img:'src/assets/html.png'
+            img: htmlImg
         },
         {
             name:'TAILWIND CSS',
-            img:'src/assets/tailwind-css.png'
+            img: tailwindImg
         },
         {
             name:'JAVASCRIPT',
-            img:'src/assets/javascript.png'
+            img: javascriptImg
         },
         {
             name:'TYPESCRIPT',
-            img:'src/assets/typescript.png'
+            img: typescriptImg
         },
         {
             name:'SVELTE',
-            img:'src/assets/svelte.png'
+            img: svelteImg
         },
         {
             name:'REACT',
-            img:'src/assets/react.png'
+            img: reactImg
         },
         {
             name:'FIGMA',
-            img:'src/assets/figma.png'
+            img: figmaImg
         },
         {
             name:'BOOTSTRAP',
-            img:'src/assets/bootstrap.png'
+            img: bootstrapImg
         },
     ]
   return (

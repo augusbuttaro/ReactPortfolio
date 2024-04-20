@@ -1,23 +1,26 @@
 import { useState } from 'react'
 import ProjectModal from './ProjectModal'
+import quizzicalImg from "../assets/quizzical-img.png"
+import unitConverterImg from "../assets/unit-converter-img.png"
+import movieWatchlistImg from "../assets/movie-watchlist-img.png"
 
 function Projects() {
     const projectList = [
         {
             name: "Quizzical",
-            img: "src/assets/quizzical-img.png",
+            img: quizzicalImg,
             description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
             link: "https://zippy-horse-8f801a.netlify.app/"
         },
         {
             name: "Unit Converter",
-            img: "src/assets/unit-converter-img.png",
+            img: unitConverterImg,
             description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
             link: "https://venerable-phoenix-d9f6b2.netlify.app/"
         },
         {
             name: "Movie Watchlist",
-            img: "src/assets/movie-watchlist-img.png",
+            img: movieWatchlistImg,
             description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
             link: "https://rad-torrone-bc384f.netlify.app/"
         },
