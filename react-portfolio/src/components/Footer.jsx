@@ -26,7 +26,7 @@ function Footer() {
   ]
 
     return (
-    <div className='bg-pink-ten w-screen px-[10%] h-fit mx-auto flex align-center justify-around'>
+    <div className='bg-pink-ten w-screen py-2 px-[10%] h-fit mx-auto flex align-center justify-around'>
         {socialMedia.map((media) =>{
             return(
                 <div className='flex gap-4 self-center' key={media.name}>
