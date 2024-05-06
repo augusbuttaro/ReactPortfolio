@@ -13,7 +13,8 @@ export default {
       "green": "#ACD8AA",
       "green-fifty": "#ACD8AA80",
       "pink": "#FF07E6",
-      "purple-fifty": "#77096C80"
+      "purple-fifty": "#77096C80",
+      'peach' : '#f1f1f1'
     },
     fontFamily: {
       darkerGrotesque: ['"Darker Grotesque"', "sans-serif"],
@@ -24,7 +25,7 @@ export default {
     },
     backgroundImage: {
       'bgimg': "url('src/assets/bg-pic.png')",
-    }
+    },
   },
   plugins: [],
 }
