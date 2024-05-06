@@ -13,7 +13,7 @@ function Projects() {
             name: "Sogen E-Commerce",
             img: sogenImg,
             description: "Sogen E-Commerce serves as a fake E-Commerce app using mainly React and APIs as well as React Router. Focusing on trying to give the best user experience for people shopping online and a design created with Figma, this page is an attempt to unveil advanced React understanding.",
-            link: "https://rad-torrone-bc384f.netlify.app/"
+            link: "https://sogen-ecommerce-augusto-buttaro.netlify.app/"
         },
         {
             name: "Rock, Paper, Scissors",

@@ -16,7 +16,7 @@ function Hero() {
                     <h2 className='mt-2 text-center font-regular text-green text-xl'>Web Designer/Front-end Developer</h2>
                 </div>
             </div>
-            <img className='w-40  mx-16 mt-8 mb-0 shadow-pink rounded-3xl object-cover' src={profilePic}/>
+            <img className=' w-48 mt-8 mb-0 shadow-pink rounded-3xl object-cover' src={profilePic}/>
         </div>
     </div>
   )

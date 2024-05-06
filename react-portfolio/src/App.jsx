@@ -7,6 +7,7 @@ import Projects from "./components/Projects"
 import topLeft from "./assets/top-left.png"
 import bottomRight from "./assets/bottom-right.png"
 import profilePic from "./assets/profile-pic.jpg"
+import abLogo from "./assets/ab-logo.png"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className='font-darkerGrotesque pt-16 w-full overflow-x-hidden bg-purple'>
         <div className=''>
+          <img className='absolute h-12 top-5 right-5' src={abLogo} />
           <div className='relative'>
             <img className='h-36 absolute top-0 left-20' src={topLeft} />
             <img className='h-36 absolute bottom-0 right-20' src={bottomRight} />
@@ -25,7 +27,7 @@ function App() {
                         <About />
                     </div>
                 </div>
-                <img className='w-52  mx-16 my-4 shadow-pink rounded-3xl object-cover' src={profilePic}/>
+                <img className='w-80  mx-20 my-4 shadow-pink rounded-3xl object-cover' src={profilePic}/>
             </div>
           </div>
         </div>
